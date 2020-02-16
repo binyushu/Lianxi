@@ -8,8 +8,7 @@ clinet = socket.socket()
 #连接服务器IP和端口
 clinet.connect(("127.0.0.1", 8080))
 
-server_data = clinet.recv(1024)
-print("服务端：{}".format(server_data.decode("utf-8")))
+
 
 
 while True:
